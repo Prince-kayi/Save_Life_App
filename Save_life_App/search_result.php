@@ -4,7 +4,7 @@ if(isset($_POST['submit']))
 
 $dbhost="localhost";
 $user="root";
-$pass="";
+$pass=" ";
 $db="details";
 $plug= new mysqli($dbhost,$user,$pass,$db) or die ('cannot connect');
 echo "connected to database <br>";
